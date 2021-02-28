@@ -1,0 +1,59 @@
+.fylo-member {
+    background-color: hsl(218, 28%, 13%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fylo-member__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: -27px;
+}
+
+.fylo-member__lists--items {
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 12px;
+    margin: 20px;
+    padding: 30px;
+}
+.fylo-member__lists--items__description {
+    color: #d1cece;
+}
+
+.about {
+    color: #d1cece;
+}
+
+.fylo-member__info--feature {
+    border-radius: 50%;
+    margin-inline-end: 20px;
+    width: 70px;
+}
+
+.fylo-member__info {
+    display: flex;
+    align-items: center;
+}
+
+.fylo-member__info--personal {
+    line-height: 40px;
+}
+
+.fylo-member__feature {
+    width: 35px;
+    margin-inline-start: 65px;
+}
+
+@media (min-width: 1000px) {
+    .fylo-member__list {
+        display: flex;
+        flex-direction: row;
+    }
+    .fylo-member__lists--items:nth-of-type(1) {
+        margin: 0;
+        margin-right: 20px;
+    }
+}

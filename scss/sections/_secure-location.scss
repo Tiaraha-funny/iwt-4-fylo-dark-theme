@@ -1,0 +1,35 @@
+.secure-location {
+    text-align: center;
+    background-image: url(../../images/bg-curvy-desktop.svg);
+    background-size: 100% 100px;
+    background-repeat: no-repeat;
+    display: block;
+    padding-top: 90px;
+    background-position-y: 417px;
+}
+
+.secure-location__main {
+    background-color: hsl(218, 28%, 13%);
+    margin-top: 77px;
+}
+
+.secure-location__header {
+    font-size: 30px;
+}
+
+.secure-location__description {
+    color: #d1cece;
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+}
+
+@media (min-width: 1000px) {
+    .secure-location__header {
+        font-size: 45px;
+    }
+
+    .secure-location__description {
+        width: 60%;
+        margin: auto;
+    }
+}

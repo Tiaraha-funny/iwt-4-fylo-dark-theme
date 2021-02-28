@@ -1,0 +1,31 @@
+body {
+    box-sizing: border-box;
+    background-color: hsl(217, 28%, 15%) ;
+    color: #ffffff;
+    font-family: 'Open Sans', Courier, monospace;
+    margin: 0;
+    z-index: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+    z-index: 1;
+}
+
+img {
+    max-width: 100%;
+}

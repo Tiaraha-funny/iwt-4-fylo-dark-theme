@@ -1,0 +1,19 @@
+.get-start-button {
+    background-color: hsl(198, 60%, 50%);
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 16px;
+    width: 70%;
+    text-align: center;
+}
+
+.get-start-button:hover,
+.get-start-button:focus {
+    background-color: hsl(176, 68%, 64%);
+}
+
+@media (min-width: 1000px) {
+    .get-start-button {
+        width: 30%;
+    }
+}

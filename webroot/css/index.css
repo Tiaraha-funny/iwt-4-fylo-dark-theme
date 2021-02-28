@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../coverted-fonts/open-sans/OpenSans-Bold.woff2") format("woff2"), url("../../fonts/open-sans/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../converted-fonts/OpenSans-Regular.woff2") format("woff2"), url("../../converted-fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+body {
+  box-sizing: border-box;
+  background-color: #1c2431;
+  color: #ffffff;
+  font-family: 'Open Sans', Courier, monospace;
+  margin: 0;
+  z-index: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none; }
+
+footer {
+  background-color: #0b1523;
+  z-index: 1; }
+
+img {
+  max-width: 100%; }
+
+.headings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px; }
+
+.header__feature--images {
+  width: 60%; }
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0; }
+
+.navigation__list--items {
+  margin-right: 20px; }
+
+.navigation__list--items:nth-of-type(3) {
+  margin-right: 0; }
+
+.navigation__list--items__anchor {
+  color: #d1cece; }
+
+.navigation__list--items__anchor:focus,
+.navigation__list--items__anchor:hover {
+  color: #ffffff; }
+
+.get-start-button {
+  background-color: #339ecc;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 16px;
+  width: 70%;
+  text-align: center; }
+
+.get-start-button:hover,
+.get-start-button:focus {
+  background-color: #65e2d9; }
+
+@media (min-width: 1000px) {
+  .get-start-button {
+    width: 30%; } }
+
+.secure-location {
+  text-align: center;
+  background-image: url(../../images/bg-curvy-desktop.svg);
+  background-size: 100% 100px;
+  background-repeat: no-repeat;
+  display: block;
+  padding-top: 90px;
+  background-position-y: 417px; }
+
+.secure-location__main {
+  background-color: #181f2a;
+  margin-top: 77px; }
+
+.secure-location__header {
+  font-size: 30px; }
+
+.secure-location__description {
+  color: #d1cece;
+  padding-block-start: 30px;
+  padding-block-end: 30px; }
+
+@media (min-width: 1000px) {
+  .secure-location__header {
+    font-size: 45px; }
+  .secure-location__description {
+    width: 60%;
+    margin: auto; } }
+
+.access-file-anywhere__list {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-block-start: 50px; }
+
+.access-file-anywhere__list--items {
+  text-align: center;
+  width: 70%;
+  padding-inline-start: 50px;
+  padding-block-start: 30px;
+  padding-block-end: 30px; }
+
+.access-file-anywhere__description {
+  color: #d1cece; }
+
+@media (min-width: 1000px) {
+  .access-file-anywhere__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; } }
+
+.stay-productivity {
+  background-color: #181f2a;
+  padding: 30px; }
+
+.stay-productivity__description--links {
+  display: flex;
+  text-decoration: underline #62E0D9;
+  align-items: center; }
+
+.stay-productivity__link {
+  color: #62E0D9; }
+
+.stay-productivity__heading {
+  text-align: left; }
+
+.stay-productivity__description {
+  color: #d1cece; }
+
+@media (min-width: 1000px) {
+  .stay-productivity {
+    display: flex;
+    align-items: center; }
+  .stay-productivity__feature {
+    margin: 0;
+    padding-inline-end: 100px; } }
+
+.fylo-member {
+  background-color: #181f2a;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.fylo-member__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: -27px; }
+
+.fylo-member__lists--items {
+  background-color: #202a3c;
+  border-radius: 12px;
+  margin: 20px;
+  padding: 30px; }
+
+.fylo-member__lists--items__description {
+  color: #d1cece; }
+
+.about {
+  color: #d1cece; }
+
+.fylo-member__info--feature {
+  border-radius: 50%;
+  margin-inline-end: 20px;
+  width: 70px; }
+
+.fylo-member__info {
+  display: flex;
+  align-items: center; }
+
+.fylo-member__info--personal {
+  line-height: 40px; }
+
+.fylo-member__feature {
+  width: 35px;
+  margin-inline-start: 65px; }
+
+@media (min-width: 1000px) {
+  .fylo-member__list {
+    display: flex;
+    flex-direction: row; }
+  .fylo-member__lists--items:nth-of-type(1) {
+    margin: 0;
+    margin-right: 20px; } }

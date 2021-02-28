@@ -1,0 +1,34 @@
+.stay-productivity {
+    background-color: hsl(218, 28%, 13%);
+    padding: 30px;
+}
+
+.stay-productivity__description--links {
+    display: flex;
+    text-decoration: underline #62E0D9;
+    align-items: center;
+}
+
+.stay-productivity__link {
+    color: #62E0D9;
+}
+
+.stay-productivity__heading {
+    text-align: left;
+}
+
+.stay-productivity__description {
+    color: #d1cece;
+}
+
+@media (min-width: 1000px) {
+    .stay-productivity {
+        display: flex;
+        align-items: center;
+    }
+
+    .stay-productivity__feature {
+        margin: 0;
+        padding-inline-end: 100px;
+    } 
+}

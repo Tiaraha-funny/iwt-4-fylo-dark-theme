@@ -1,0 +1,37 @@
+.headings {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.header__feature--images {
+    width: 60%;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__list--items {
+    margin-right: 20px;
+}
+
+.navigation__list--items:nth-of-type(3) {
+    margin-right: 0;
+}
+
+.navigation__list--items__anchor {
+    color: #d1cece;
+}
+
+.navigation__list--items__anchor:focus,
+.navigation__list--items__anchor:hover {
+  color: #ffffff;
+}
